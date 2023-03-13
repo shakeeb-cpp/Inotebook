@@ -1,0 +1,66 @@
+body {
+    background-color: rgba(0, 0, 0, 0.89);
+    color: #fff;
+}
+
+i {
+    cursor: pointer;
+    color: rgb(59, 199, 255);
+    transition: all .4s ease-out;
+}
+
+i:hover {
+    color: rgb(219, 64, 64);
+    transform: scale(1.3, 1.3);
+    transform-origin: 50% 50%;
+
+}
+
+#tag_id {
+    cursor: pointer;
+    font-weight: 400;
+    display: unset;
+    transition: all .1s ease-out;
+}
+
+#tag_id:hover {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+#heading {
+    display: unset;
+}
+
+#des {
+    cursor: pointer;
+    transition: all .4s ease-out;
+}
+
+#des p {
+    transition: all .3s ease-out;
+}
+
+#card:hover #des {
+    background-color: #1d2024;
+}
+
+#card:hover #des p {
+    transform: scale(0.97, 0.97);
+}
+
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(116, 117, 119);
+    border-radius: 10px;
+    height: auto;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(23, 24, 26);
+}
